@@ -9,4 +9,4 @@ def decryptCipher(k,Cipher,mode):
              C+=chr((ord(char)-k-97)%26+97)
 
     print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-    print(f'The {mode}ed form is {C}')
+    print(f'The {mode}ed form is {C}\n')
